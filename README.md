@@ -1,31 +1,68 @@
-# Welcome to the HTML5 Basics Assignment repository! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple example of a webpage with text, images, links, and semantic HTML tags for SEO.">
+    <title>Simple Webpage Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
 
-This assignment is designed to help you build foundational knowledge of HTML5, understand its structure, and practice creating web page content using semantic elements.
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <p>Learn HTML and web development basics.</p>
+    </header>
 
-## Learning Objectives
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-By completing this assignment, you will:
+    <!-- Main Content Section -->
+    <main>
+        <section id="about">
+            <h2>About This Webpage</h2>
+            <p>This is a simple webpage designed to showcase HTML structure. It includes headings, paragraphs, images, and links.</p>
+        </section>
 
-  Understand the structure and purpose of HTML5 in web development.
-  Learn to create basic web page content using core HTML5 elements.
-  Explore semantic HTML elements and their benefits for readability and SEO.
-  Gain a basic understanding of accessibility and SEO best practices in HTML.
-  
-## Assignment Content
-  1. HTML5 Basics
-Learn the structure of an HTML document (e.g., <!DOCTYPE html>, <html>, <head>, <body>).
-Explore core elements such as headings, paragraphs, lists, links, and images.
-  2. Semantic HTML
-Introduction to semantic tags like <header>, <footer>, <nav>, <section>, and <article>.
-Learn how semantic elements improve content readability and support SEO.
-  3. Accessibility and SEO Basics
-Understand the importance of accessible HTML and SEO-friendly practices.
-Use attributes like alt, title, and semantic structures to improve usability.
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <article>
+                <h3>Beautiful Landscape</h3>
+                <img src="landscape.jpg" alt="Beautiful Landscape" width="600" height="400">
+                <p>A stunning view of nature's beauty captured in this photo.</p>
+            </article>
 
-## Activities
+            <article>
+                <h3>City Skyline</h3>
+                <img src="city-skyline.jpg" alt="City Skyline" width="600" height="400">
+                <p>The city skyline during sunset provides a breathtaking sight.</p>
+            </article>
+        </section>
 
-Creating a Simple Webpage: Design a basic webpage that includes text, images, and links.
-Use common HTML tags like h1, p, a, img, and ul or ol.
-Structure a webpage with semantic tags such as header, footer, nav, section, and article.
-Ensure the content is well-organized for readability and SEO.
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through the following links:</p>
+            <ul>
+                <li><a href="mailto:example@example.com">Email Me</a></li>
+                <li><a href="https://www.linkedin.com">LinkedIn Profile</a></li>
+                <li><a href="https://www.github.com">GitHub Profile</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Simple Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
 
